@@ -12,10 +12,17 @@ The goal is to build a small, transparent dataset and a few simple toy models th
 ## Repository structure
 
 ```text
+## Repository structure
+
+```text
 ai-blockchain-platform-economics/
 ├─ README.md                     # project overview (this file)
 ├─ paper.md                      # longer article / working paper
 ├─ data/
 │  └─ ai_blockchain_platforms_dataset.xlsx
 └─ figures/
-   └─ (empty for now – add charts here)
+   ├─ fig1_market_sizes_ai_vs_blockchain.png
+   ├─ fig2_margins_by_company.png
+   ├─ fig3_revenue_vs_margin_scatter.png
+   ├─ fig4_platform_scenarios.png
+   └─ fig5_blockchain_ai_vs_fmcg_scale.png
