@@ -1,28 +1,57 @@
 # AI, Blockchain and Platform Economics
 
-This repo explores a simple question:
+This repository hosts a short working paper on a simple question:
 
-> Why do some of the most hyped technologies and platforms in history – blockchain, AI, ride-hailing, food delivery – struggle to generate sustainable profits, while “boring” food and FMCG companies quietly print cash?
+> Why do some of the most hyped technologies and platforms – AI infrastructure, blockchain ecosystems, ride-hailing and food-delivery platforms – find it hard to generate durable profits, while “boring” food and FMCG businesses often deliver steady cash flows year after year?
 
-The goal is **not** to forecast prices or give investment advice.  
-The goal is to build a small, transparent dataset and a few simple toy models that make the economics visible.
+The goal is **not** to forecast prices or provide investment advice.  
+The goal is to make the economics visible with a compact, transparent argument that founders, operators and investors can actually use.
 
 ---
 
-## Repository structure
+## What this repository contains
 
-```text
-## Repository structure
+This project is intentionally minimal:
 
-```text
-ai-blockchain-platform-economics/
-├─ README.md                     # project overview (this file)
-├─ paper.md                      # longer article / working paper
-├─ data/
-│  └─ ai_blockchain_platforms_dataset.xlsx
-└─ figures/
-   ├─ fig1_market_sizes_ai_vs_blockchain.png
-   ├─ fig2_margins_by_company.png
-   ├─ fig3_revenue_vs_margin_scatter.png
-   ├─ fig4_platform_scenarios.png
-   └─ fig5_blockchain_ai_vs_fmcg_scale.png
+- `README.md` – high-level overview and motivation.
+- `paper.md` – a longer working paper with:
+  - stylised facts on profitability and capital intensity across AI, blockchain, ride-hailing, delivery and FMCG;
+  - a simple unit-economics and platform-economics framework;
+  - implications for startup founders and early-stage investors.
+
+All numbers are **order-of-magnitude estimates** based on public financial reports and sector studies cited in the paper. The objective is clarity rather than precision to the second decimal.
+
+---
+
+## Questions the paper tries to answer
+
+- Why can platforms with massive scale and strong network effects still struggle to show attractive operating margins?
+- How do AI and blockchain differ in terms of:
+  - capital intensity,
+  - value capture,
+  - regulatory and trust constraints?
+- Why do traditional food and FMCG businesses often show more robust unit economics, despite lower “tech content”?
+- What should founders and investors look at **before** getting excited by growth and hype?
+
+---
+
+## Intended audience
+
+- **Founders and operators** deciding whether to build on AI / blockchain or on more traditional B2B / B2C models.
+- **Early-stage investors** who want a compact, numbers-driven checklist to stress-test a pitch.
+- **Students and analysts** interested in how technology, capital expenditure and platform economics interact.
+
+---
+
+## How to read this project
+
+1. Start from `paper.md` – it is self-contained and written as a stand-alone working paper.
+2. Use the reference section at the end of the paper to explore underlying data and sector reports.
+3. Treat all scenarios as **illustrative**: they show what *could* happen under specific assumptions, not what *will* happen.
+
+---
+
+## Disclaimer
+
+This project is a personal, educational exercise.  
+It does **not** constitute investment advice, and it does **not** represent the views of any employer or institution.
